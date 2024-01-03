@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: APISecurityPynt@helloactions
+        uses: flang001/APISecurityPynt@helloactions
         with:
           who-to-greet: 'Flang Paulson'
       # Use the output from the `hello` step
